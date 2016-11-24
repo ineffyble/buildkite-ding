@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'buildkite-ding'
+require 'daemons'
+
+BuildkiteDing.load_config
+
+Daemons.run_proc('buildkite-ding') do
+  BuildkiteDing.run_client
+end
