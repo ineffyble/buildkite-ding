@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name        = 'buildkite-ding'
-  gem.version     = '0.1.0'
+  gem.version     = '0.1.2'
   gem.executables << 'buildkite-ding'
   gem.license     = 'MIT'
   gem.summary     = 'Simple audible alerts for Buildkite build events'
